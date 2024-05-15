@@ -1,0 +1,46 @@
+body {
+  background-color: #000;
+  color: #fd0303;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.floaty-box {
+  padding: 20px;
+}
+
+.hamburgerHelper {
+  filter: grayscale(100%);
+  box-shadow: 10px 10px 5px 0px rgba(253, 3, 3, 0.75);
+}
+
+.text {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.Ingredients {
+  list-style-type: none;
+}
+
+.Ingredients li {
+  text-indent: -20px;
+}
+
+.Ingredients li:before {
+  content: "- ";
+}

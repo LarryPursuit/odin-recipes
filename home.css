@@ -1,0 +1,26 @@
+.black-backgroundColor {
+  background-color: #000;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#uppercase-underlined {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.red-small {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
